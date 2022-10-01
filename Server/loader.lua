@@ -58,6 +58,7 @@ jServer:loadFrameworkModule("Player/Commands.lua");
 --Vehicles
 jServer:loadFrameworkModule("Vehicle/entities/Vehicle.lua");
 jServer:loadFrameworkModule("Vehicle/VehicleManager.lua");
+jServer:loadFrameworkModule("Vehicle/Events.lua");
 jServer:loadFrameworkModule("Vehicle/Commands.lua");
 
 --MODULES
