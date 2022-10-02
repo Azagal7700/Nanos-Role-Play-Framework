@@ -33,6 +33,8 @@ Enums.Vehicles = {
 		vehicle:SetDoor(2, Vector(-80, -80, 120), Vector(-60, -39,  90), Rotator(0, 0,  0), 60, -150)
 		vehicle:SetDoor(3, Vector(-80,  80, 120), Vector(-60,  39,  90), Rotator(0, 0,  0), 60,  150)
 
+		vehicle:SetMaxHealth(1250)
+
 		vehicle:RecreatePhysics()
 		return vehicle
 	end,
